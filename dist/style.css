@@ -1,3 +1,7 @@
+/* 
+GLOOOOOBALS
+*/
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -12,6 +16,9 @@ img {
     height: auto;
 }
 
+/* 
+Header CSS goes Here
+*/
 header {
     height: 100px;
     border: 1px solid;
@@ -40,8 +47,72 @@ header {
     border: 1px solid;
 }
 
+/* 
+End Header CSS
+*/
+
+/* 
+CSS for Welcome Page
+*/
 .text-content {
     width: 80%;
     margin: auto;
     text-align: center;
+}
+
+/* 
+End Welcome CSS
+*/
+
+/* 
+Menu CSS
+*/
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu > div {
+    width: 33%;
+}
+
+.menu-title {
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.menu img {
+    max-width: 90%;
+}
+
+/* 
+End Menu CSS
+*/
+
+/* 
+About Page CSS
+*/
+
+.about-page {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.about-page .info-text-wrapper {
+    margin: auto;
+    max-width: 500px;
+    padding: 15px;
+}
+
+.info-title {
+    text-align: center;
+    font-size: x-large;
+}
+
+.about-page > div:first-child {
+    margin: auto;
 }
